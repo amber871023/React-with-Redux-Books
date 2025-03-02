@@ -9,7 +9,7 @@ function App() {
   // fetchBooks();
   useEffect(() => {
     fetchBooks();
-  }, []);
+  }, [fetchBooks]);
 
   return (
     <div className="app">
